@@ -1,0 +1,35 @@
+var foo = 10 + '20';
+foo 的值是什麼？
+
+1020
+
+"i'm a lasagna hog".split("").reverse().join("");
+上面的陳述式會回傳什麼？
+
+i'm a lasagna hog 反過來
+
+
+( window.foo || ( window.foo = "bar" ) );
+window.foo 的值是什麼？
+
+bar
+
+下面的兩個 alerts 的結果會是什麼？
+var foo = "Hello";
+(function() {
+  var bar = " World";
+  alert(foo + bar);
+})();
+alert(foo + bar);
+
+Hello World
+bar is not defined
+
+	
+
+
+
+var foo = [];
+foo.push(1);
+foo.push(2);
+下面 foo.length 的值是什麼？

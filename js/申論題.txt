@@ -1,0 +1,27 @@
+申論題
+
+請解釋什麼是 prototype inheritance
+-> 可以在 js 中達成繼承的方式
+
+請解釋什麼是 closure 及如何使用
+-> 無法修改 function 內的參數
+
+請解釋什麼是 ajax
+
+->非同步請求
+
+請解釋 event bubbling
+
+-> 某一個 DOM 事件被觸發後會讓 Parent 也被觸發
+
+== 和 === 有何不同
+
+-> 是否會判斷型別
+	
+請解釋 same-origin policy
+
+-> 需要有同網域的資源
+
+什麼是 single page app，並怎麼讓它對 SEO 更友善。
+
+-> SPA 常使用 Client Side Rendering, 常見的框架可以使用 Server Side Render 框架，讓 HTML 可以順利被爬蟲讀取

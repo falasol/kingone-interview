@@ -1,0 +1,110 @@
+/*reset*/
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+/* css */
+.main {
+  width: 100%;
+  height: 1080px;
+  background-image: url("./image/background-image.png");
+  position: relative;
+}
+
+.stall {
+  width: 1428px;
+  height: 962.2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("./image/stall-image-green.png");
+}
+
+.back-btn {
+  position: absolute;
+  left: 32.4px;
+}
+.logo {
+  position: absolute;
+  left: 399.8px;
+  top: 57.6px;
+}
+
+.demo-img {
+  position: absolute;
+  left: 51.3px;
+  top: 418.8px;
+}
+
+.main-image {
+  position: absolute;
+  left: 325px;
+  top: 392.7px;
+}
+
+.name {
+  position: absolute;
+  left: 557.5px;
+  top: 66.9px;
+}
+
+.top-name {
+  width: 561.3px;
+  height: 51px;
+  margin: 9.3px 20.8px 15.5px 32.8px;
+  font-family: MicrosoftYaHeiBold-GBpc-EUC-H;
+  font-size: 41.7px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 8.35px;
+  text-align: center;
+  color: #333;
+}
+
+.secondary-name {
+  width: 563.3px;
+  height: 34px;
+  margin: 15.5px 18.8px 225.3px 32.8px;
+  font-family: MicrosoftYaHeiGBpc-EUC-H;
+  font-size: 30.1px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.81;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333;
+}
+
+.btn-image {
+  position: absolute;
+  left: 537.8px;
+  top: 838.8px;
+  cursor: pointer;
+}
