@@ -108,3 +108,36 @@ ul {
   top: 838.8px;
   cursor: pointer;
 }
+
+.board {
+  width: 273.1px;
+  height: 353.8px;
+  background-image: url("./image/acr-image.png");
+  position: absolute;
+  left: 1106.6px;
+  top: 407px;
+}
+
+.icons {
+  position: absolute;
+  left: 32.9px;
+  top: 57.6px;
+}
+
+.icon-text {
+  width: 215px;
+  font-family: NotoSansCJKTC;
+  line-height: 1.59;
+  font-size: 13.4px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333;
+}
+.web {
+  position: absolute;
+  left: 194.4px;
+  top: -3.8px;
+}
